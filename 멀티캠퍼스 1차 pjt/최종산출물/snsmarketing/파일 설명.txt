@@ -1,0 +1,20 @@
+1. gal24_analysis.ipynb
+- 최종 코드
+
+2. pt.pdf
+- 발표 ppt
+
+3. 세미프로젝트 기획안_3조.docx
+- 1차 기획안
+
+4. youtube_crawl.py
+- 유튜브 댓글 크롤링 부분 streamlit 시연용 테스트 코드
+
+5. test.xlsx
+- youtube_crawl.py로 시연한 결과 값
+
+6. 유튜브 댓글 크롤링.mov
+- 4번 파이썬 파일 시연 영상
+
+7. data폴더
+- 분석 전 과정에서 사용, 저장 된 파일들

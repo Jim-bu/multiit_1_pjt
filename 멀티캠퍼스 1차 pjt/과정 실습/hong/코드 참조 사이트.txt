@@ -1,0 +1,15 @@
+코드 참조 사이트
+1. 셀레니움 기초
+https://wikidocs.net/137914
+
+2. 유튜브 댓글 크롤링
+https://velog.io/@jihyunko/python-Selenium%EA%B3%BC-Beautifulsoup%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%8C%93%EA%B8%80-%ED%81%AC%EB%A1%A4%EB%A7%81
+
+3. 셀레니움 by모듈, 특정 요소 선택
+https://aplab.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%85%80%EB%A0%88%EB%8B%88%EC%9B%80-%EC%82%AC%EC%9A%A9%EB%B2%95-%ED%8A%B9%EC%A0%95-%EC%9A%94%EC%86%8C%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95%EC%9D%80
+
+4. 네이버쇼핑 크롤링(상품 검색, 이미지 수집)
+https://velog.io/@shlee2227/goai2305241
+
+5. 셀레니움 웹자동화(스크롤, 로그인, 클릭 등)
+https://wikidocs.net/214309

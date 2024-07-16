@@ -1,0 +1,42 @@
+1. stopwords.txt
+- 대표적인 한국어 불용어 사전
+
+2. stopwords_s24.txt
+- s24 데이터 분석 과정 중 불용어라 판단하여 만든 불용어 사전
+
+3. youtube_comment 폴더
+- 폴더 내에 "갤럭시 s24 유튜브 링크" 파일에 있는 50여 개의 영상들을 크롤링한 데이터
+
+4. gal_s24_com_1-50
+- youtube_comment 폴더에 있는 크롤링 데이터들을 하나로 합친 데이터
+
+5. s24
+- gal_s24_com_1-50에서 결측치, 중복 데이터 제거
+- 각 댓글의 문장을 마침표와 줄바꿈을 기준으로 split한 데이터
+
+6. s24_finbert
+- s24에서 kor_finber 모델로 감성분석 실행한 결과
+
+7. s24_finbert_noneu
+- s24_finbert에서 neutral 데이터를 삭제하고 긍정-부정 데이터만 남김
+
+8. s24_Kkma
+- s24_finbert_noneu에서 Kkma 형태소 분석 모델을 적용시킨 데이터
+
+9. s24_Kkma_clean
+- s24_Kkma에서 1, 2번의 불용어 사전을 적용시켜서 불용어 제거를 한 데이터
+
+10. mor_freq_positive
+- s24_Kkma_clean에서 positive label만 뽑아서 형태소 별 빈도수를 계산 한 데이터
+
+11. mor_freq_negative
+- s24_Kkma_clean에서 negative label만 뽑아서 형태소 별 빈도수를 계산 한 데이터
+
+12. comments_with_positive_keywords
+-  s24_Kkma_clean에서 positive label에 해당하는 문장들 중 mor_freq_positive에서 키워드 top10이 포함 된 문장들
+
+13. comments_with_negative_keywords
+- s24_Kkma_clean에서 negative label에 해당하는 문장들 중 mor_freq_negative에서 키워드 top10이 포함 된 문장들
+
+14. modules_and_libraries.txt
+- 사용한 라이브러리의 용도 정리
